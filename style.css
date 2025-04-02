@@ -86,10 +86,9 @@ body{
 
 .article-container article p{
     width: 100%;
-    height: 4rem;
-    color: var(--Desaturated-Dark-Blue);
+    color: var(--Grayish-Blue);
     margin-top: -0.5rem;
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     line-height: 1.4rem;
 }
 
@@ -132,9 +131,29 @@ footer .icon img{
     right: 0;
 }
 
-.share-text{
-    display: none;
+.social-media{
+    position: absolute;
+    right: -25%;
+    top: -170%;
+    width: 64%;
+    background-color: var(--Dark-Grayish-Blue);
+    padding: 1.25rem 1rem;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+
 }
+
+.share-text{
+    text-transform: uppercase;
+    color: var(--Grayish-Blue);
+    letter-spacing: 0.3rem;
+    transform: scaleY(0.9)
+};
 
 
 
