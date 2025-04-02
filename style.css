@@ -40,7 +40,7 @@ body{
 }
 
 .container{
-    height: 35dvh;
+    height: 38dvh;
     width: 45dvw;
     margin: 0 auto;
     display: flex;
@@ -88,19 +88,52 @@ body{
     width: 100%;
     height: 4rem;
     color: var(--Desaturated-Dark-Blue);
-    margin-top: -1.2rem;
+    margin-top: -0.5rem;
     font-size: 1.1rem;
     line-height: 1.4rem;
 }
 
 .article-container footer{
-    border: 3px solid pink;
     width: 100%;
     height: 30%;
+    margin-top: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
 }
 
 footer .avatar img{
-    width: 10%;
+    width: 20%;
+    border-radius: 2rem;
+    margin: auto 0;
+}
+
+footer .icon img{
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 2rem;
+    background-color: var(--Light-Grayish-Blue);
+}
+
+.author-info{
+    position: absolute;
+    left: 15%;
+    line-height: 1.5rem;
+    color: var(--Desaturated-Dark-Blue);
+}
+
+.author-info span{
+    color: var(--Dark-Grayish-Blue);
+}
+
+.icon{
+    position: absolute;
+    right: 0;
+}
+
+.share-text{
+    display: none;
 }
 
 
